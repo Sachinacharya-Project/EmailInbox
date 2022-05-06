@@ -7,6 +7,12 @@ load_dotenv()
 
 username = os.environ.get('USEREMAIL', None)
 password = os.environ.get('LESSSECURE_PASS', None)
+"""
+For 2-Step Verification
+	USE LESSSECURE_PASS
+For Normal Security
+	USE USERPASS
+"""
 
 if username == None:
     username = input("Email: ")
