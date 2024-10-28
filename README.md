@@ -1,7 +1,7 @@
 # Email Inbox
 
-_____________________________
+Retrives emails from Inbox of Mail Provider.
 
-### Description
-This is a program written in python that can read INBOX of provided email account (GMAIL) and displays    
-all unseen MAILS
+> [!NOTE]  
+> When using Gmail, you might need to use `app-password` if your account has 2FA.  
+> You can create or manage app-passwords [here](https://myaccount.google.com/u/1/apppasswords)
